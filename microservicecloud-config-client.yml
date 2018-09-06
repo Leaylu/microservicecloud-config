@@ -14,7 +14,7 @@ eureka:
   client:
     register-with-eureka: false
     serviceUrl:
-      defaultZone: http://eureka-dev.com:1007/eureka/
+      defaultZone: http://eureka-dev.com:7001/eureka/
 ---
 server:
   port:8202
@@ -26,4 +26,4 @@ eureka:
   client:
     register-with-eureka: false
     serviceUrl:
-      defaultZone: http://eureka-test.com:1007/eureka/
+      defaultZone: http://eureka-test.com:7001/eureka/
