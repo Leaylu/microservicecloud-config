@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+# 开发环境
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-todo-dev
+---
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-todo-test
+# 必须以UTF-8格式
+    
