@@ -12,7 +12,6 @@ spring:
     name: microservicecloud-config-client
 eureka:
   client:
-    register-with-eureka: false
     serviceUrl:
       defaultZone: http://eureka-dev.com:7001/eureka/
 ---
@@ -24,6 +23,5 @@ spring:
     name: microservicecloud-config-client
 eureka:
   client:
-    register-with-eureka: false
     serviceUrl:
       defaultZone: http://eureka-test.com:7001/eureka/
