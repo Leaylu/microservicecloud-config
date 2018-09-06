@@ -43,8 +43,7 @@ info:
   company.name: www.todosoft.com.cn
   build.artifactId: $project.artifactId$
   build.version: $project.version$
-  ---
-  ---
+---
 server:
   port: 1008
   
