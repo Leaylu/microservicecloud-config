@@ -81,6 +81,6 @@ eureka:
     prefer-ip-address: true #访问路径可以显示IP地址
 info: 
   app.name: todo-microservicecloud
-  company.name: www.todosoft.com.cn
+  company.name: www.tod
   build.artifactId: $project.artifactId$
   build.version: $project.version$
